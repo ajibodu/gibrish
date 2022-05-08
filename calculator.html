@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link href="css/calculator.css" rel="stylesheet">
+        <script src="js/calculator.js"></script>
+    </head>
+    <body>
+        <input id="screen" />
+        <div>
+            <div id="numbers">
+                <ul>
+                    <li onclick="showNumber(1)">1</li>
+                    <li onclick="showNumber(2)">2</li>
+                    <li onclick="showNumber(3)">3</li>
+                    <li onclick="showNumber(4)">4</li>
+                    <li onclick="showNumber(5)">5</li>
+                    <li onclick="showNumber(6)">6</li>
+                    <li onclick="showNumber(7)">7</li>
+                    <li onclick="showNumber(8)">8</li>
+                    <li onclick="showNumber(9)">9</li>
+                    <li onclick="showNumber(0)">0</li>
+                </ul>
+            </div>
+            <div class="action">
+                <ul>
+                    <li onclick="addAction('+')" class="add">+</li>
+                    <li onclick="addAction('-')" class="sub">-</li>
+                    <li onclick="addAction('/')" class="div">/</li>
+                    <li onclick="addAction('*')" class="mul">*</li>
+                </ul>
+            </div>
+            <input type="button" value="submit" onclick="submit()">
+            <input type="button" value="clear" onclick="clearscreen()">
+        </div>
+
+    </body>
+</html>

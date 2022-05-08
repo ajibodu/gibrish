@@ -1,0 +1,24 @@
+#numbers ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+#numbers li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid grey;
+}
+.action ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+.action li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid grey;
+}

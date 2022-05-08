@@ -1,0 +1,20 @@
+/* h1{
+    color: red;
+} */
+
+#click{
+    border: 1px solid grey;
+    padding: 10px;
+}
+#content{
+    margin-top: 10px;
+    border: 1px solid grey;
+    display: none;
+}
+
+.display{
+    display: block !important;
+    height: 100px;
+    color: red;
+    padding: 20px;
+}

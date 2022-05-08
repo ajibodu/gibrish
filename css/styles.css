@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.container{
+    height: calc(100vh - 60px);
+    width: inherit;
+    display: flex;
+}
+.left{
+    width: 55%;
+    height: inherit;
+    background-color: yellow;
+    position: relative;
+}
+.left .background-img{
+    height: inherit;
+    width: 100%;
+}
+.left .flying-img{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+.right{
+    width: 45%;
+    height: inherit;
+    /* background-color: green; */
+    padding-left: 30px;
+}
+.twitter-logo{
+    height: 50px;
+    margin-top: 50px;
+}
+.twitter-logo img{
+    height: inherit;
+}
+.right h1{
+    font-size: 70px;
+}
+.right h3{
+    font-size: 40px;
+}
+.round-button{
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #d8d4d4;
+    width: 300px;
+    text-align: center;
+    padding: 12px 0;
+    margin: 20px 0;
+}
+.round-button.google:hover{
+    border-color: #d2e3fc;
+    background-color: #f4f8ff;
+}
+.round-button.apple:hover{
+    background-color: #ccc9c9;
+}
+.round-button.nobody{
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+}
+.round-button.nobody:hover{
+    background-color: rgb(26, 140, 216);
+}
+.footer{
+    height: 60px;
+    width: inherit;
+    background-color: aqua;
+}
